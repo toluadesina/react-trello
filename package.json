@@ -1,5 +1,5 @@
 {
-  "name": "react-trello",
+  "name": "react-kanban",
   "description": "Pluggable components to add a trello like kanban board to your application",
   "main": "dist/index.js",
   "jsnext:main": "src/components/index.js",
@@ -45,11 +45,11 @@
     "immutability-helper": "^2.8.1",
     "lodash": "^4.17.11",
     "prop-types": "^15.7.2",
-    "react-click-outside": "^1.1.1",
     "react-popopo": "^2.1.9",
     "react-redux": "^5.0.7",
     "redux": "^4.0.0",
     "redux-actions": "^2.6.1",
+    "react-click-outside": "^1.1.1",
     "redux-logger": "^3.0.6",
     "trello-smooth-dnd": "1.0.0",
     "uuid": "^3.3.2"
