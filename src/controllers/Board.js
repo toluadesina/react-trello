@@ -5,8 +5,8 @@ import {applyMiddleware, createStore} from 'redux'
 import logger from 'redux-logger'
 import uuidv1 from 'uuid/v1'
 import BoardContainer from './BoardContainer'
-import createTranslate from 'rt/helpers/createTranslate'
-import boardReducer from 'rt/reducers/BoardReducer'
+import createTranslate from '../helpers/createTranslate'
+import boardReducer from '../reducers/BoardReducer'
 
 const middlewares = process.env.REDUX_LOGGING ? [logger] : []
 
