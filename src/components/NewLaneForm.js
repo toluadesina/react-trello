@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import PropTypes from 'prop-types'
-import { LaneTitle, NewLaneButtons, Section } from 'rt/styles/Base'
-import { AddButton, CancelButton } from 'rt/styles/Elements'
+import { LaneTitle, NewLaneButtons, Section } from './styles/Base'
+import { AddButton, CancelButton } from './styles/Elements'
 import NewLaneTitleEditor from 'rt/widgets/NewLaneTitleEditor'
 import ClickOutside from 'react-click-outside'
 
